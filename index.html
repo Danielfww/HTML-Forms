@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Formsy</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Forms Practice</h1>
+  <section class="section" action=".example.html" method="POST">
+    <label for="stuff">Name:</label>
+    <input type="text" name="text" id="stuff">
+    <br>
+    <br>
+    </input>
+    <label for="user-pw">Password:</label>
+    <input type="password" name="user-pw" id="user-pw" </input>
+    <br>
+    <br>
+    <label class="label" for="form2"> How many hours you spend playing Tekken daily?</label>
+    <input type="number" step="1" name="text" id="form2">
+    </input>
+    <br>
+    <br>
+    <br>
+    <label for="ranges">Your Stress level:
+    </label>
+    <br>
+    <span>JL</span>
+    <input type="range" name="ranges" id="ranges" step="1" min="0" max="200">
+    </input>
+    <span>Craig</span>
+    <br>
+    <br>
+    <br>
+    <span2>Your Favorite Tekken Character?
+      </span>
+      <br>
+      <label for="Alisa">Alisa</label>
+      <input type="checkbox" id="Alisa" name="char" value="Alisa"></input>
+
+      <label for="Eliza">Eliza</label>
+      <input type="checkbox" id="Eliza" name="char" value="Eliza"></input>
+
+      <label for="Lili">Lili</label>
+      <input type="checkbox" id="Lili" name="char" value="Lili"></input>
+
+      <label for="Zafina">Zafina</label>
+      <input type="checkbox" id="Zafina" name="char" value="Zafina"></input>
+      <br>
+
+      <section>
+        <p> Would you like Marduk to be in Tekken 8? </p>
+        <label for="No">No</label>
+        <input type="radio" name="Marduk" id="No" value="No"></input>
+        <label for="No">No</label>
+        <input type="radio" name="Marduk" id="No" value="No"></input>
+        <br>
+        <br>
+        <form>
+          <label for="lunch">Which Tekken was your Favorite:</label>
+          <select id="lunch" name="lunch">
+            <option value=""></option>
+            <option value="Tekken1">Tekken 1</option>
+            <option value="Tekken2">Tekken 2</option>
+            <option value="Tekken3">Tekken 3</option>
+            <option value="Tekken4">Tekken 4</option>
+          </select>
+        </form>
+        <br>
+        <br>
+
+        <label for="game">What is your favorite game?</label>
+        <input type="text" id="game" list="games" name="game"></input>
+
+        <datalist id="games">
+          <option value="Fallout 3" </option>
+          <option value="Mass Effect" </option>
+          <option value="Tekken 7" </option>
+          <option value="Final Fantasy 7" </option>
+          <option value="Yugioh" </option>
+          <option value="Pokemon" </option>
+        </datalist>
+
+        <br>
+        <br>
+
+        <label for="blog"> Write something about yourself: </label>
+        <textarea id="blog" name="blog" rows="5" columns="50">
+</textarea>
+        <br>
+        <br>
+        <form>
+          <input type="submit" value="Send">
+          </input>
+          <br>
+          <br>
+          <h2> Validations </h2>
+          <label for="valid">Checking Validations</label>
+          <input type="text" id="valid" name="valid" required></input>
+          <input type="submit" value="Submit"></input>
+          <br>
+          <br>
+          <label for="maximus">Pick a number from 0 to 10</label>
+          <input type="number" id="maximus" name="maximus" required min="0" max="10">
+          <input type="submit" value="Click here" </input>
+          </input>
+          <br>
+          <br>
+          <label for="essay">Talk to me</label>
+          <input type="text" id="essay" name="essay" minlength="10" maxlength="200" required>
+          <input type="submit" value="Click here" </input>
+          <br>
+          <br>
+          <br>
+          <label for="payment">Pay here</input>
+            <input type="number" id="payment" name="payment" required pattern="" [0-9]{14,16}"</input>
+            <input type="submit" value="Click here" </input>
+
+</body>
+          </html>
