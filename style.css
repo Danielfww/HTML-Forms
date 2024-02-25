@@ -1,0 +1,18 @@
+* {
+  background-color:#FEFCCC;
+}
+
+
+label {
+  display:block;
+  width:250px;
+  float:center;
+  font-weight:Italic;
+  color:Black
+    text-align:center;
+}
+
+intput {
+  padding:40px;
+  font-size:20px;
+}
